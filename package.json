@@ -1,0 +1,24 @@
+{
+  "name": "ci-cd-insta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadazizEsonboyev/ci-cd-insta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadazizEsonboyev/ci-cd-insta/issues"
+  },
+  "homepage": "https://github.com/MuhammadazizEsonboyev/ci-cd-insta#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "json-server": "^0.17.1"
+  }
+}
