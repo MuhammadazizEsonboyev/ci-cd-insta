@@ -1,0 +1,175 @@
+.paper {
+    width: 400px;
+    height: 600px;
+    background: white;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.inp {
+    margin: 5px;
+    padding: 5px 25px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.inp:focus {
+    box-shadow: 1px 1px 10px gray;
+    transition: 1s;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Oleo Script', cursive;
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.ili {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+
+.ili::after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: .7px;
+    background: gray;
+    margin: 8px;
+}
+
+.ili::before {
+    content: "";
+    display: block;
+    width: 30%;
+    height: .7px;
+    background: gray;
+    margin: 8px;
+}
+
+.divBtn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 78%;
+    border: 1px solid gray;
+    background: rgb(122, 122, 199);
+    opacity: 1;
+    font-size: 20px;
+    color: white;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+
+button:hover {
+    background: rgb(92, 92, 227);
+}
+
+.text {
+    text-align: center;
+    padding-top: 30px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+@media(max-width: 575px) {
+    h1 {
+        font-family: 'Oleo Script', cursive;
+        padding-top: 28px;
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 35px;
+    }
+    .inp {
+        margin: 5px;
+        padding: 5px 16px;
+        font-size: 13px;
+        outline: none;
+        border: 1px solid gray;
+    }
+    button {
+        width: 78%;
+        border: 1px solid gray;
+        background: rgb(122, 122, 199);
+        opacity: 1;
+        font-size: 11px;
+        color: white;
+        border-radius: 2px;
+        margin-top: 5px;
+    }
+
+    .ili {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 21px;
+        text-transform: uppercase;
+        color: gray;
+        font-size: 10px;
+    }
+
+    .ili::before {
+        content: "";
+        display: block;
+        width: 20%;
+        height: 0.7px;
+        background: gray;
+        margin: 8px;
+    }
+
+    .ili::after {
+        content: "";
+        display: block;
+        width: 20%;
+        height: 0.7px;
+        background: gray;
+        margin: 8px;
+    }
+
+    a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        /* margin-top: -4px; */
+    }
+
+    .text {
+        text-align: center;
+        padding-top: 6px;
+    }
+
+    .paper {
+        width: 280px;
+        height: 408px;
+        background: white;
+        box-shadow: 1px 1px 5px grey;
+        border-radius: 7px;
+        margin: auto;
+        margin-top: 76px;
+    }
+}
