@@ -9,7 +9,7 @@ btn.onclick = () => {
         password: inp[1].value
     }
 
-    fetch("http://localhost:3000/data",
+    fetch("http://localhost:3001/data",
     {
         headers: {
           'Accept': 'application/json',
